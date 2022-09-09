@@ -1,0 +1,5 @@
+{
+    "sentences": [
+        "'A' + randomAdjective() + ' ' + randomNoun() + ' ' + randomVerb() + 's a ' + randomAdjective() + ' ' + randomNoun()"
+    ]
+}
