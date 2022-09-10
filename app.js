@@ -36,7 +36,8 @@ $.ajax({
                     `When I first ${randomVerb()} ${randomNoun()} I wanted to ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
-                $('.poem').append(str + '<br>');
+                const sentence = str.substring(0, 1).toUpperCase() + str.substring(1)
+                $('.poem').append(sentence + '<br>');
             }
         })
     }
