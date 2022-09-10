@@ -3,7 +3,7 @@ $.ajax({
     url: "https://raw.githubusercontent.com/laurenssouthgate/Random-Poetry-Generator/main/words.json",
     dataType: 'json',
     success: function(data) {
-        const d = JSON.parse(data)
+        const d = data
         const randomNoun = function(){
             const noun = d[0].nouns[Math.floor(Math.random() * d[0].nouns.length)];
             return noun;
@@ -18,6 +18,7 @@ $.ajax({
         }
         $('.parameters-btn').on('click', function(e) {
             e.preventDefault();
+            $('.poem').html('');
             const poemLength = $('.line-number').val()
             for (var i = 0; i < poemLength; i++) {
                 const sentences = [    
@@ -26,7 +27,10 @@ $.ajax({
                     `When ${randomNoun()}'s appear they make my ${randomAdjective()} ${randomNoun()} ${randomVerb()}`,
                     `If only my ${randomAdjective()} ${randomNoun()} would ${randomVerb()} my ${randomAdjective()} ${randomNoun()}`,
                     `Your ${randomNoun()}'s are like a ${randomAdjective()} ${randomNoun()}`,
-                    `The sky looked like a ${randomAdjective()} ${randomNoun()}`
+                    `The sky looked like a ${randomAdjective()} ${randomNoun()}`,
+                    `Because the ${randomNoun()} is ${randomAdjective()} it makes me ${randomVerb()}`,
+                    `I just wanna ${randomVerb()} your ${randomAdjective()} ${randomNoun()}`,
+                    `And in the end the ${randomNoun()} you ${randomVerb()} is equal to the ${randomNoun()} you ${randomVerb()}`
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
                 $('.poem').append(str + '<br>');
