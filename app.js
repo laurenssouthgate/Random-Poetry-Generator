@@ -31,7 +31,7 @@ $.ajax({
                     `Because the ${randomNoun()} is ${randomAdjective()} it makes me ${randomVerb()}`,
                     `I just wanna ${randomVerb()} your ${randomAdjective()} ${randomNoun()}`,
                     `And in the end the ${randomNoun()} you ${randomVerb()} is equal to the ${randomNoun()} you ${randomVerb()}`,
-                    `${randomNoun()}s in the ${randomAdjective()} ${randomNoun()} make my ${randomNoun()} ${randomVerb}`,
+                    `${randomNoun()}s in the ${randomAdjective()} ${randomNoun()} make my ${randomNoun()} ${randomVerb()}`,
                     `${randomAdjective()} ${randomNoun()} I saw you ${randomVerb()} ${randomAdjective()}`,
                     `When I first ${randomVerb()} ${randomNoun()} I wanted to ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
                 ]
