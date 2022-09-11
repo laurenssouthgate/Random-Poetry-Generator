@@ -35,12 +35,14 @@ $.ajax({
                     `${randomAdjective()} ${randomNoun()} I saw you ${randomVerb()} a ${randomNoun()}`,
                     `When I first ${randomVerb()} ${randomNoun()} I wanted to ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
                     `Once upon a time you ${randomVerb()}ed so ${randomAdjective()}`,
-                    `Come back ${randomAdjective()} man, I only wanted to ${randomVerb()} your ${randomAdjective()} ${randomNoun()}`,
+                    `${randomAdjective()} ${randomNoun()}, I only wanted to ${randomVerb()} your ${randomAdjective()} ${randomNoun()}`,
                     `When the ${randomAdjective()} ${randomNoun()} ${randomVerb()}s its time to ${randomVerb()} the ${randomNoun()}`,
                     `The ${randomNoun()} coloured ${randomNoun()}s drifted through the ${randomAdjective()} sky`,
                     `There is no ${randomNoun()} to fix your ${randomAdjective()} ${randomNoun()}`,
                     `${randomAdjective()} ${randomNoun()}s make me slowly ${randomVerb()} you`,
-                    `The ${randomNoun()} is ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`
+                    `The ${randomNoun()} is ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
+                    `Nobody is coming to ${randomVerb()} you from the ${randomAdjective()} ${randomNoun()}`,
+                    `Stop the ${randomAdjective()} ${randomNoun()} from ${randomVerb()}ing my ${randomNoun()}`
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
                 const sentence = str.substring(0, 1).toUpperCase() + str.substring(1)
