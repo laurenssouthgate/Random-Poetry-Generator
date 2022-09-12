@@ -70,7 +70,8 @@ $.ajax({
                 sentence = sentence.replace(/eing/g, "ing");
                 sentence = sentence.replace(/sss/g, "ses");
                 sentence = sentence.replace(/bing/g, "being");
-                sentence = sentence.replace(/ys /g, "ies ")
+                sentence = sentence.replace(/ys /g, "ies ");
+                sentence = sentence.replace(/eed /g, "ed ");
                 
                 $('.poem').append(sentence + '<br>');
             }
