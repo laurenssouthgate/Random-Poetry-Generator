@@ -24,7 +24,7 @@ $.ajax({
                 const sentences = [    
                     `A ${randomAdjective()} ${randomNoun()} ${randomVerb()}s a ${randomAdjective()} ${randomNoun()}`,
                     `Please don't ${randomVerb()} my ${randomAdjective()} ${randomNoun()}`,
-                    `When ${randomNoun()}'s appear they make my ${randomAdjective()} ${randomNoun()} ${randomVerb()}`,
+                    `When ${randomNoun()}s appear they make my ${randomAdjective()} ${randomNoun()} ${randomVerb()}`,
                     `If only my ${randomAdjective()} ${randomNoun()} would ${randomVerb()} my ${randomAdjective()} ${randomNoun()}`,
                     `Your ${randomNoun()}s are like a ${randomAdjective()} ${randomNoun()}`,
                     `The sky looked like a ${randomAdjective()} ${randomNoun()}`,
@@ -33,7 +33,7 @@ $.ajax({
                     `And in the end the ${randomNoun()} you ${randomVerb()} is equal to the ${randomNoun()} you ${randomVerb()}`,
                     `${randomNoun()}s in the ${randomAdjective()} ${randomNoun()} make my ${randomNoun()} ${randomVerb()}`,
                     `${randomAdjective()} ${randomNoun()} I saw you ${randomVerb()} a ${randomNoun()}`,
-                    `When I first ${randomVerb()} ${randomNoun()} I wanted to ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
+                    `When I first ${randomVerb()}ed ${randomNoun()} I wanted to ${randomVerb()} the ${randomAdjective()} ${randomNoun()}`,
                     `Once upon a time you ${randomVerb()}ed so ${randomAdjective()}`,
                     `${randomAdjective()} ${randomNoun()}, I only wanted to ${randomVerb()} your ${randomAdjective()} ${randomNoun()}`,
                     `When the ${randomAdjective()} ${randomNoun()} ${randomVerb()}s its time to ${randomVerb()} the ${randomNoun()}`,
@@ -74,7 +74,9 @@ $.ajax({
                 sentence = sentence.replace(/ a a/g, " an a");
                 sentence = sentence.replace(/ a o/g, " an o");
                 sentence = sentence.replace(/ a u/g, " an u");
+                sentence = sentence.replace(/ a i/g, " an i");
                 sentence = sentence.replace(/A e/g, "An e");
+                sentence = sentence.replace(/A i/g, "An i");
                 sentence = sentence.replace(/A a/g, "An a");
                 sentence = sentence.replace(/A o/g, "An o");
                 sentence = sentence.replace(/A u/g, "An u");
@@ -87,6 +89,7 @@ $.ajax({
                 sentence = sentence.replace(/rubed/g, "rubbed");
                 sentence = sentence.replace(/sumed/g, "summed");
                 sentence = sentence.replace(/an utopian/g, "a utopian");
+                sentence = sentence.replace(/beed/g, "was");
 
                 $('.poem').append(sentence + '<br>');
             }
