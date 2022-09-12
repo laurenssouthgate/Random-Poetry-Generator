@@ -50,7 +50,7 @@ $.ajax({
                     `Did you see how the ${randomAdjective()} ${randomNoun()} was ${randomVerb()}ing?`,
                     `Old ${randomAdjective()} ${randomNoun()} don't ${randomVerb()} no ${randomNoun()}s`,
                     `You got ${randomAdjective()} ${randomNoun()} in your ${randomAdjective()} ${randomNoun()}`,
-                    `I was ${randomVerb()}ing on the ${randomNoun()} when I thought I ${randomVerb}ed some ${randomNoun()}`,
+                    `I was ${randomVerb()}ing on the ${randomNoun()} when I thought I ${randomVerb()}ed some ${randomNoun()}`,
                     `I stepped out of the ${randomAdjective()} ${randomNoun()} and into the ${randomAdjective()} ${randomNoun()}`,
                     `I was torn between ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()} and ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()}`,
                     `I walked past ${randomAdjective()} in the ${randomNoun()}`,
