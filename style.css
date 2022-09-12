@@ -10,7 +10,6 @@ html {
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat:no-repeat;
     background-attachment: fixed;
-    height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +39,7 @@ header h1 {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: auto;
 }
 
 header i {
