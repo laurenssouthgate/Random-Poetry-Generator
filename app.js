@@ -60,6 +60,13 @@ $.ajax({
                     `I came across a ${randomAdjective()} ${randomNoun()} that told me to ${randomVerb()} my ${randomNoun()}`,
                     `Every time I ${randomVerb()} past your ${randomNoun()}, I'm wishing I was ${randomVerb()}ing ${randomNoun()}s instead`,
                     `Somewhere ${randomNoun()} is ${randomVerb()}ing for its ${randomAdjective()} ${randomNoun()}`
+                    `There's a lot of ${randomAdjective()} ${randomNoun()}s in ${randomNoun()} town, and plenty of ${randomNoun()} to go around`,
+                    `Nobody can ${randomVerb()} the ${randomNoun()} like ${randomAdjective()} ${randomNoun()} man can`,
+                    `My ${randomAdjective()} ${randomNoun()} ${randomVerb()}ing behind my ${randomNoun()}`,
+                    `${randomVerb()} a ${randomNoun()} of ${randomVerb()} up the ${randomAdjective()} ${randomNoun()}`,
+                    `Talk about ${randomNoun()} and ${randomNoun()}s suddenly ${randomVerb()}`,
+                    `I thought the ${randomAdjective()} ${randomNoun()} might ${randomVerb()} things a bit`,
+                    `Far away in the ${randomAdjective()} ${randomNoun()} where ${randomNoun()}s ${randomVerb()}`
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
                 let sentence = str.substring(0, 1).toUpperCase() + str.substring(1)
@@ -76,6 +83,10 @@ $.ajax({
                 sentence = sentence.replace(/bing/g, "being");
                 sentence = sentence.replace(/ys /g, "ies ");
                 sentence = sentence.replace(/eed /g, "ed ");
+                sentence = sentence.replace(/horseshoing/g, "horseshoeing");
+                sentence = sentence.replace(/rubed/g, "rubbed");
+                sentence = sentence.replace(/sumed/g, "summed");
+                sentence = sentence.replace(/an utopian/g, "a utopian");
                 
                 $('.poem').append(sentence + '<br>');
             }
