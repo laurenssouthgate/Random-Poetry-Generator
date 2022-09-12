@@ -55,7 +55,11 @@ $.ajax({
                     `I was torn between ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()} and ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()}`,
                     `I walked past ${randomAdjective()} in the ${randomNoun()}`,
                     `People are ${randomVerb()}ing and ${randomVerb()}ing whilst the ${randomAdjective()} ${randomNoun()} ${randomVerb()}s`,
-                    `I ${randomVerb()}ed in the ${randomNoun()} whilst the ${randomAdjective()} ${randomNoun()} ${randomVerb()}ed`
+                    `I ${randomVerb()}ed in the ${randomNoun()} whilst the ${randomAdjective()} ${randomNoun()} ${randomVerb()}ed`,
+                    `Theres ${randomNoun()}s behind the ${randomNoun()}s in ${randomAdjective()} places`,
+                    `I came across a ${randomAdjective()} ${randomNoun()} that told me to ${randomVerb()} my ${randomNoun()}`,
+                    `Every time I ${randomVerb()} past your ${randomNoun()}, I'm wishing I was ${randomVerb()}ing ${randomNoun()}s instead`,
+                    `Somewhere ${randomNoun()} is ${randomVerb()}ing for its ${randomAdjective()} ${randomNoun()}`
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
                 let sentence = str.substring(0, 1).toUpperCase() + str.substring(1)
