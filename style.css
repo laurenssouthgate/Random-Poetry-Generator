@@ -40,6 +40,8 @@ header h1 {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 3rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 header i {
