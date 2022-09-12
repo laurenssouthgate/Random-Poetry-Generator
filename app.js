@@ -50,7 +50,12 @@ $.ajax({
                     `Did you see how the ${randomAdjective()} ${randomNoun()} was ${randomVerb()}ing?`,
                     `Old ${randomAdjective()} ${randomNoun()} don't ${randomVerb()} no ${randomNoun()}s`,
                     `You got ${randomAdjective()} ${randomNoun()} in your ${randomAdjective()} ${randomNoun()}`,
-                    `I was ${randomVerb()}ing on the ${randomNoun()} when I thought I ${randomVerb}ed some ${randomNoun()}`
+                    `I was ${randomVerb()}ing on the ${randomNoun()} when I thought I ${randomVerb}ed some ${randomNoun()}`,
+                    `I stepped out of the ${randomAdjective()} ${randomNoun()} and into the ${randomAdjective()} ${randomNoun()}`,
+                    `I was torn between ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()} and ${randomVerb()}ing the ${randomAdjective()} ${randomNoun()}`,
+                    `I walked past ${randomAdjective()} in the ${randomNoun()}`,
+                    `People are ${randomVerb()}ing and ${randomVerb()}ing whilst the ${randomAdjective()} ${randomNoun()} ${randomVerb()}s`,
+                    `I ${randomVerb()}ed in the ${randomNoun()} whilst the ${randomAdjective()} ${randomNoun()} ${randomVerb()}ed`
                 ]
                 const str = sentences[Math.floor(Math.random() * sentences.length)];
                 let sentence = str.substring(0, 1).toUpperCase() + str.substring(1)
